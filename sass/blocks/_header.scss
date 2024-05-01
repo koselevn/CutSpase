@@ -1,0 +1,30 @@
+.header-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text{
+    width: 465px;
+}
+
+.header-title{
+    margin-right: -160px;
+    position: relative;
+    z-index: 9;
+
+    font-size: 54px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.46;
+
+}
+
+.header-text p {
+    line-height: 1.6875;
+    margin-bottom: 1em;
+}
+
+.header-img{
+    border-radius: 40px 40px 40px 0px;
+}

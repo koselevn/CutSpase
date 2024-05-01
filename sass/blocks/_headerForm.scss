@@ -1,0 +1,44 @@
+.header-form {
+    margin-top: 42px;
+    background: #fff;
+    box-shadow: 0px 17px 42px rgb(0, 0, 0, 0.12);
+    border-radius: 30px;
+    height: 58px;
+    transition: all 0.2s;
+
+    &-active {
+        box-shadow: 0px 17px 42px rgb(247, 132, 52, 0.27);
+    }
+    border-color: $accent-color;
+}
+
+.header-form-lable {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 72px;
+    height: 100%;
+
+    &::before {
+        position: absolute;
+        top: 20px;
+        left: 28px;
+        content: '';
+        display: block;
+        width: 24px;
+        height: 19px;
+        background-image: url('./../../img/mail.svg');
+        background-size: inherit;
+    }
+
+}
+
+.header-form-input{
+    flex-grow: 1;
+    margin-right: 5px;
+
+    &::placeholder {
+        color: #bbb;
+    }
+}

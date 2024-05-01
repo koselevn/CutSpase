@@ -1,0 +1,40 @@
+.objects{
+    padding-bottom: 154px;
+}
+
+.objects-img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.objects-title{
+    margin-bottom: 20px;
+}
+
+.objects-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    @media (max-width: 1495px) {
+        justify-content: flex-end;
+    }
+}
+
+.objects-text{
+    width: 543px;
+    padding-left: 181px;
+    flex-shrink: 0;
+    margin-right: 200px; // 150px
+
+    p + p {
+        margin-top: 20px;
+    }
+}
+
+.objects-btn {
+    margin-top: 40px;
+}

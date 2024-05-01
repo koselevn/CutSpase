@@ -1,0 +1,23 @@
+.serve {
+    padding-top: 475px;
+    padding-bottom: 75px;
+    background-color: #F5F6FA;
+    margin-top: -350px;
+
+}
+
+.serve-heading{
+    margin-bottom: 45px;
+    text-align: center;
+
+    .title {
+        margin-bottom: 10px;
+    }
+}
+
+.serve-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    column-gap: 30px;
+}

@@ -1,0 +1,54 @@
+.cta {
+    padding-bottom: 140px;
+}
+
+.cta-block {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+
+
+    border-radius: 20px;
+    background-color: #58BEBF;
+    color: #fff;
+
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 910px;
+        top: 0px;
+        background-image: url(../../img/oval.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.cta-img{
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: #fff;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.cta-text{
+   margin-right: 117px;
+   margin-left: 96px;
+
+   box-sizing: content-box;
+}
+
+.cta-title{
+    margin-bottom: 15px;
+}
+
+.cta-btn-row{
+    margin-top: 30px;
+
+
+    display: flex;
+    column-gap: 20px ;
+}

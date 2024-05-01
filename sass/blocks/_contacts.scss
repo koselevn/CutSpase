@@ -1,0 +1,56 @@
+.contacts {
+    position: relative;
+
+    padding-top: 200px;
+    padding-bottom: 55px;
+    margin-bottom: 90px;
+
+    background-image: url(/img/Bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    &::before {
+        content: '';
+        display: block;
+        width: 723px;
+        height: 372px;
+        background-image: url(/img/Ovalchik.svg);
+        background-size: initial;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 478px;
+        height: 547px;
+        background-image: url(/img/girl.png);
+        background-size: initial;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: 80px;
+    }
+}
+
+.contacts-info {
+    max-width: 340px;
+
+    h2 {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    p {
+        color: #fff;
+        margin-bottom: 30px;
+    }
+}
+
+.contact-div{
+    display: flex;
+}

@@ -1,0 +1,29 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+
+
+// Blocks
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/navigation_list";
+@import "./blocks/header";
+@import "./blocks/headerForm";
+@import "./blocks/button.scss";
+@import "./blocks/partners";
+@import "./blocks/objects.scss";
+@import "./blocks/title";
+@import "./blocks/img-card";
+@import "./blocks/card-info";
+@import "./blocks/cta";
+@import "./blocks/serve";
+@import "./blocks/card-customer";
+@import "./blocks/benefits";
+@import "./blocks/benefits-card";
+@import "./blocks/testimonials";
+@import "./blocks/card-testimonial.scss";
+@import "./blocks/contacts";
+@import "./blocks/footer";
+@import "./blocks/adaptation";
